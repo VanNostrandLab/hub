@@ -1,0 +1,5 @@
+hub snoRNA_Chimeras
+shortLabel snoRNA_Chimeras
+longLabel snoRNA_Chimeras
+genomesFile genomes.txt
+email fei.yuan@bcm.edu
