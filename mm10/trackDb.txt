@@ -5,7 +5,7 @@ longLabel snoRNA_Chimeras
 superTrack on
 
 track IN_A_S1_plus
-bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IN_A_S1.genome.chimeras.pos.bw
+bigDataUrl IN_A_S1.genome.chimeras.pos.bw
 shortLabel IN_A_S1 Plus strand
 longLabel IN_A_S1 Plus strand
 type bigWig
