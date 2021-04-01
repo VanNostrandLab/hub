@@ -1,4 +1,5 @@
 track snoRNA_Chimeras
+type bigWig
 shortLabel snoRNA_Chimeras
 longLabel snoRNA_Chimeras
 superTrack on
