@@ -15,14 +15,14 @@ showSubtrackColorOnUi on
 container multiWig
 
 	track IN_A_S1_plus
-	bigDataUrl IN_A_S1.genome.chimeras.pos.bw
+	bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IN_A_S1.genome.chimeras.pos.bw
 	shortLabel IN_A_S1 Plus strand
 	longLabel IN_A_S1 Plus strand
 	type bigWig
 	color 0,100,0
 
 	track IN_A_S1_minus
-    bigDataUrl IN_A_S1.genome.chimeras.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IN_A_S1.genome.chimeras.neg.bw
     shortLabel IN_A_S1 Minus strand
     longLabel IN_A_S1 Minus strand
     type bigWig
@@ -40,14 +40,14 @@ showSubtrackColorOnUi on
 container multiWig
 
 	track IN_B_S2_plus
-	bigDataUrl IN_B_S2.genome.chimeras.pos.bw
+	bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IN_B_S2.genome.chimeras.pos.bw
 	shortLabel IN_B_S2 Plus strand
 	longLabel IN_B_S2 Plus strand
 	type bigWig
 	color 0,100,0
 
 	track IN_B_S2_minus
-    bigDataUrl IN_B_S2.genome.chimeras.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IN_B_S2.genome.chimeras.neg.bw
     shortLabel IN_B_S2 Minus strand
     longLabel IN_B_S2 Minus strand
     type bigWig
@@ -65,14 +65,14 @@ showSubtrackColorOnUi on
 container multiWig
 
 	track IP_A_S3_plus
-	bigDataUrl IP_A_S3.genome.chimeras.pos.bw
+	bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IP_A_S3.genome.chimeras.pos.bw
 	shortLabel IP_A_S3 Plus strand
 	longLabel IP_A_S3 Plus strand
 	type bigWig
 	color 0,100,0
 
 	track IN_A_S1_minus
-    bigDataUrl IP_A_S3.genome.chimeras.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IP_A_S3.genome.chimeras.neg.bw
     shortLabel IP_A_S3 Minus strand
     longLabel IP_A_S3 Minus strand
     type bigWig
@@ -90,14 +90,14 @@ showSubtrackColorOnUi on
 container multiWig
 
 	track IP_B_S4_plus
-	bigDataUrl IP_B_S4.genome.chimeras.pos.bw
+	bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IP_B_S4.genome.chimeras.pos.bw
 	shortLabel IP_B_S4 Plus strand
 	longLabel IP_B_S4 Plus strand
 	type bigWig
 	color 0,100,0
 
 	track IN_A_S1_minus
-    bigDataUrl IP_B_S4.genome.chimeras.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IP_B_S4.genome.chimeras.neg.bw
     shortLabel IP_B_S4 Minus strand
     longLabel IP_B_S4 Minus strand
     type bigWig
