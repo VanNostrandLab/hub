@@ -1,3 +1,9 @@
+track snoRNA_Chimeras
+type bigWig
+shortLabel snoRNA_Chimeras
+longLabel snoRNA_Chimeras
+superTrack on
+
 track IN_A_S1
 shortLabel IN_A_S1
 longLabel IN_A_S1
@@ -7,6 +13,7 @@ alwaysZero on
 autoScale on
 aggregate transparentOverlay
 showSubtrackColorOnUi on
+parent snoRNA_Chimeras
 container multiWig
 
 	track IN_A_S1_plus
@@ -15,6 +22,7 @@ container multiWig
 	longLabel IN_A_S1 Plus strand
 	type bigWig
 	color 0,100,0
+	parent IN_A_S1
 
 	track IN_A_S1_minus
     bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IN_A_S1.genome.chimeras.neg.bw
@@ -22,6 +30,7 @@ container multiWig
     longLabel IN_A_S1 Minus strand
     type bigWig
     color 0,100,0
+    parent IN_A_S1
 
 track IN_B_S2
 shortLabel IN_B_S2
@@ -32,6 +41,7 @@ alwaysZero on
 autoScale on
 aggregate transparentOverlay
 showSubtrackColorOnUi on
+parent snoRNA_Chimeras
 container multiWig
 
 	track IN_B_S2_plus
@@ -40,6 +50,7 @@ container multiWig
 	longLabel IN_B_S2 Plus strand
 	type bigWig
 	color 0,100,0
+	parent IN_B_S2
 
 	track IN_B_S2_minus
     bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IN_B_S2.genome.chimeras.neg.bw
@@ -47,6 +58,7 @@ container multiWig
     longLabel IN_B_S2 Minus strand
     type bigWig
     color 0,100,0
+    parent IN_B_S2
 
 track IP_A_S3
 shortLabel IP_A_S3
@@ -57,6 +69,7 @@ alwaysZero on
 autoScale on
 aggregate transparentOverlay
 showSubtrackColorOnUi on
+parent snoRNA_Chimeras
 container multiWig
 
 	track IP_A_S3_plus
@@ -65,6 +78,7 @@ container multiWig
 	longLabel IP_A_S3 Plus strand
 	type bigWig
 	color 0,100,0
+	parent IP_A_S3
 
 	track IP_A_S3_minus
     bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IP_A_S3.genome.chimeras.neg.bw
@@ -72,6 +86,7 @@ container multiWig
     longLabel IP_A_S3 Minus strand
     type bigWig
     color 0,100,0
+    parent IP_A_S3
 
 track IP_B_S4
 shortLabel IP_B_S4
@@ -82,6 +97,7 @@ alwaysZero on
 autoScale on
 aggregate transparentOverlay
 showSubtrackColorOnUi on
+parent snoRNA_Chimeras
 container multiWig
 
 	track IP_B_S4_plus
@@ -90,6 +106,7 @@ container multiWig
 	longLabel IP_B_S4 Plus strand
 	type bigWig
 	color 0,100,0
+	parent IP_B_S4
 
 	track IP_B_S4_minus
     bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IP_B_S4.genome.chimeras.neg.bw
@@ -97,3 +114,4 @@ container multiWig
     longLabel IP_B_S4 Minus strand
     type bigWig
     color 0,100,0
+    parent IP_B_S4
