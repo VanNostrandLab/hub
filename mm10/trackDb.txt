@@ -71,7 +71,7 @@ container multiWig
 	type bigWig
 	color 0,100,0
 
-	track IN_A_S1_minus
+	track IP_A_S3_minus
     bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IP_A_S3.genome.chimeras.neg.bw
     shortLabel IP_A_S3 Minus strand
     longLabel IP_A_S3 Minus strand
@@ -96,7 +96,7 @@ container multiWig
 	type bigWig
 	color 0,100,0
 
-	track IN_A_S1_minus
+	track IP_B_S4_minus
     bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/mm10/IP_B_S4.genome.chimeras.neg.bw
     shortLabel IP_B_S4 Minus strand
     longLabel IP_B_S4 Minus strand
