@@ -1,0 +1,5 @@
+hub SNORD115_Chimeras
+shortLabel SNORD115_Chimeras
+longLabel SNORD115_Chimeras
+genomesFile genomes.txt
+email fei.yuan@bcm.edu
