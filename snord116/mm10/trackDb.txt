@@ -13,7 +13,7 @@ alwaysZero on
 autoScale on
 aggregate transparentOverlay
 showSubtrackColorOnUi on
-parent snoRNA_Chimeras
+parent SNORD116_Chimeras
 container multiWig
 
 	track IN_A_S1_plus
@@ -41,7 +41,7 @@ alwaysZero on
 autoScale on
 aggregate transparentOverlay
 showSubtrackColorOnUi on
-parent snoRNA_Chimeras
+parent SNORD116_Chimeras
 container multiWig
 
 	track IN_B_S2_plus
@@ -69,7 +69,7 @@ alwaysZero on
 autoScale on
 aggregate transparentOverlay
 showSubtrackColorOnUi on
-parent snoRNA_Chimeras
+parent SNORD116_Chimeras
 container multiWig
 
 	track IP_A_S3_plus
@@ -97,7 +97,7 @@ alwaysZero on
 autoScale on
 aggregate transparentOverlay
 showSubtrackColorOnUi on
-parent snoRNA_Chimeras
+parent SNORD116_Chimeras
 container multiWig
 
 	track IP_B_S4_plus
