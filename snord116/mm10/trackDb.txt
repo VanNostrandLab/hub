@@ -17,7 +17,7 @@ parent SNORD116_Chimeras
 container multiWig
 
 	track IN_A_S1_plus
-	bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IN_A_S1_snord116_7.pos.bw
+	bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IN_A_S1_snord116_6.pos.bw
 	shortLabel IN_A_S1 Plus strand
 	longLabel IN_A_S1 Plus strand
 	type bigWig
@@ -25,7 +25,7 @@ container multiWig
 	parent IN_A_S1
 
 	track IN_A_S1_minus
-    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IN_A_S1_snord116_7.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IN_A_S1_snord116_6.neg.bw
     shortLabel IN_A_S1 Minus strand
     longLabel IN_A_S1 Minus strand
     type bigWig
@@ -45,7 +45,7 @@ parent SNORD116_Chimeras
 container multiWig
 
 	track IN_B_S2_plus
-	bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IN_B_S2_snord116_8.pos.bw
+	bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IN_B_S2_snord116_7.pos.bw
 	shortLabel IN_B_S2 Plus strand
 	longLabel IN_B_S2 Plus strand
 	type bigWig
@@ -53,7 +53,7 @@ container multiWig
 	parent IN_B_S2
 
 	track IN_B_S2_minus
-    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IN_B_S2_snord116_8.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IN_B_S2_snord116_7.neg.bw
     shortLabel IN_B_S2 Minus strand
     longLabel IN_B_S2 Minus strand
     type bigWig
@@ -73,7 +73,7 @@ parent SNORD116_Chimeras
 container multiWig
 
 	track IP_A_S3_plus
-	bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IP_A_S3_snord116_4798.pos.bw
+	bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IP_A_S3_snord116_3881.pos.bw
 	shortLabel IP_A_S3 Plus strand
 	longLabel IP_A_S3 Plus strand
 	type bigWig
@@ -81,7 +81,7 @@ container multiWig
 	parent IP_A_S3
 
 	track IP_A_S3_minus
-    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IP_A_S3_snord116_4798.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IP_A_S3_snord116_3881.neg.bw
     shortLabel IP_A_S3 Minus strand
     longLabel IP_A_S3 Minus strand
     type bigWig
@@ -101,7 +101,7 @@ parent SNORD116_Chimeras
 container multiWig
 
 	track IP_B_S4_plus
-	bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IP_B_S4_snord116_2808.pos.bw
+	bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IP_B_S4_snord116_2281.pos.bw
 	shortLabel IP_B_S4 Plus strand
 	longLabel IP_B_S4 Plus strand
 	type bigWig
@@ -109,7 +109,7 @@ container multiWig
 	parent IP_B_S4
 
 	track IP_B_S4_minus
-    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IP_B_S4_snord116_2808.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/snord116/mm10/IP_B_S4_snord116_2281.neg.bw
     shortLabel IP_B_S4 Minus strand
     longLabel IP_B_S4 Minus strand
     type bigWig
