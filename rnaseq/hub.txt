@@ -1,0 +1,126 @@
+hub RNA-Seq
+shortLabel RNA-Seq
+longLabel RNA-Seq
+useOneFile on
+email fei.yuan@bcm.edu
+
+genome hg19
+
+track RNA-Seq
+shortLabel RNA-Seq
+longLabel RNA-Seq
+type bigWig
+superTrack on
+    
+track SRR10919398_WT
+shortLabel SRR10919398_WT
+longLabel SRR10919398_WT
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent snoRNA_Chimeras
+container multiWig
+
+    track SRR10919398_WT_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/rnaseq/SRR10919398_WT.plus.bw
+    shortLabel SRR10919398_WT Plus strand
+    longLabel SRR10919398_WT Plus strand
+    type bigWig
+    color 0,100,0
+    parent SRR10919398_WT
+    
+    track SRR10919398_WT_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/rnaseq/SRR10919398_WTminus.bw
+    shortLabel SRR10919398_WT Minus strand
+    longLabel SRR10919398_WT Minus strand
+    type bigWig
+    color 0,100,0
+    parent SRR10919398_WT
+    
+track SRR10919399_WT
+shortLabel SRR10919399_WT
+longLabel SRR10919399_WT
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent snoRNA_Chimeras
+container multiWig
+
+    track SRR10919399_WT_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/rnaseq/SRR10919399_WT.plus.bw
+    shortLabel SRR10919399_WT Plus strand
+    longLabel SRR10919399_WT Plus strand
+    type bigWig
+    color 0,100,0
+    parent SRR10919399_WT
+    
+    track SRR10919399_WT_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/rnaseq/SRR10919399_WTminus.bw
+    shortLabel SRR10919399_WT Minus strand
+    longLabel SRR10919399_WT Minus strand
+    type bigWig
+    color 0,100,0
+    parent SRR10919399_WT
+    
+track SRR10919402_KO
+shortLabel SRR10919402_KO
+longLabel SRR10919402_KO
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent snoRNA_Chimeras
+container multiWig
+
+    track SRR10919402_KO_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/rnaseq/SRR10919402_KO.plus.bw
+    shortLabel SRR10919402_KO Plus strand
+    longLabel SRR10919402_KO Plus strand
+    type bigWig
+    color 0,100,0
+    parent SRR10919402_KO
+    
+    track SRR10919402_KO_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/rnaseq/SRR10919402_KOminus.bw
+    shortLabel SRR10919402_KO Minus strand
+    longLabel SRR10919402_KO Minus strand
+    type bigWig
+    color 0,100,0
+    parent SRR10919402_KO
+    
+track SRR10919403_KO
+shortLabel SRR10919403_KO
+longLabel SRR10919403_KO
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent snoRNA_Chimeras
+container multiWig
+
+    track SRR10919403_KO_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/rnaseq/SRR10919403_KO.plus.bw
+    shortLabel SRR10919403_KO Plus strand
+    longLabel SRR10919403_KO Plus strand
+    type bigWig
+    color 0,100,0
+    parent SRR10919403_KO
+    
+    track SRR10919403_KO_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/rnaseq/SRR10919403_KOminus.bw
+    shortLabel SRR10919403_KO Minus strand
+    longLabel SRR10919403_KO Minus strand
+    type bigWig
+    color 0,100,0
+    parent SRR10919403_KO
+    
