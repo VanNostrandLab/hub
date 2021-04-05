@@ -32,7 +32,7 @@ container multiWig
     color 0,100,0
     parent SRR10919398_WT
     
-    track SRR10919398_WT_plus
+    track SRR10919398_WT_minus
     bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/rnaseq/SRR10919398_WTminus.bw
     shortLabel SRR10919398_WT Minus strand
     longLabel SRR10919398_WT Minus strand
@@ -60,7 +60,7 @@ container multiWig
     color 0,100,0
     parent SRR10919399_WT
     
-    track SRR10919399_WT_plus
+    track SRR10919399_WT_minus
     bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/rnaseq/SRR10919399_WTminus.bw
     shortLabel SRR10919399_WT Minus strand
     longLabel SRR10919399_WT Minus strand
@@ -88,7 +88,7 @@ container multiWig
     color 0,100,0
     parent SRR10919402_KO
     
-    track SRR10919402_KO_plus
+    track SRR10919402_KO_minus
     bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/rnaseq/SRR10919402_KOminus.bw
     shortLabel SRR10919402_KO Minus strand
     longLabel SRR10919402_KO Minus strand
@@ -116,7 +116,7 @@ container multiWig
     color 0,100,0
     parent SRR10919403_KO
     
-    track SRR10919403_KO_plus
+    track SRR10919403_KO_minus
     bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/rnaseq/SRR10919403_KOminus.bw
     shortLabel SRR10919403_KO Minus strand
     longLabel SRR10919403_KO Minus strand
