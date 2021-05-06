@@ -1,0 +1,294 @@
+hub RNA-Seq
+shortLabel Haploid Cell RNA-Seq
+longLabel Haploid Cell RNA-Seq
+useOneFile on
+email fei.yuan@bcm.edu
+
+genome hg19
+
+track RNA-Seq
+shortLabel RNA-Seq
+longLabel RNA-Seq
+type bigWig
+superTrack on
+
+track RNA.HAP1.C597.replicate1
+shortLabel RNA.HAP1.C597.replicate1
+longLabel RNA.HAP1.C597.replicate1
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent RNA-Seq
+container multiWig
+
+    track RNA_HAP1_C597_replicate1_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.HAP1.C597.replicate1.plus.bw
+    shortLabel RNA.HAP1.C597.replicate1 Plus strand
+    longLabel RNA.HAP1.C597.replicate1 Plus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.HAP1.C597.replicate1
+    
+    track RNA_HAP1_C597_replicate1_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.HAP1.C597.replicate1.minus.bw
+    shortLabel RNA.HAP1.C597.replicate1 Minus strand
+    longLabel RNA.HAP1.C597.replicate1 Minus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.HAP1.C597.replicate1
+    
+track RNA.HAP1.C597.replicate2
+shortLabel RNA.HAP1.C597.replicate2
+longLabel RNA.HAP1.C597.replicate2
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent RNA-Seq
+container multiWig
+
+    track RNA_HAP1_C597_replicate2_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.HAP1.C597.replicate2.plus.bw
+    shortLabel RNA.HAP1.C597.replicate2 Plus strand
+    longLabel RNA.HAP1.C597.replicate2 Plus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.HAP1.C597.replicate2
+    
+    track RNA_HAP1_C597_replicate2_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.HAP1.C597.replicate2.minus.bw
+    shortLabel RNA.HAP1.C597.replicate2 Minus strand
+    longLabel RNA.HAP1.C597.replicate2 Minus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.HAP1.C597.replicate2
+    
+track RNA.KBM7.A2
+shortLabel RNA.KBM7.A2
+longLabel RNA.KBM7.A2
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent RNA-Seq
+container multiWig
+
+    track RNA_KBM7_A2_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.KBM7.A2.plus.bw
+    shortLabel RNA.KBM7.A2 Plus strand
+    longLabel RNA.KBM7.A2 Plus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.KBM7.A2
+    
+    track RNA_KBM7_A2_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.KBM7.A2.minus.bw
+    shortLabel RNA.KBM7.A2 Minus strand
+    longLabel RNA.KBM7.A2 Minus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.KBM7.A2
+    
+track RNA.KBM7.B2
+shortLabel RNA.KBM7.B2
+longLabel RNA.KBM7.B2
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent RNA-Seq
+container multiWig
+
+    track RNA_KBM7_B2_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.KBM7.B2.plus.bw
+    shortLabel RNA.KBM7.B2 Plus strand
+    longLabel RNA.KBM7.B2 Plus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.KBM7.B2
+    
+    track RNA_KBM7_B2_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.KBM7.B2.minus.bw
+    shortLabel RNA.KBM7.B2 Minus strand
+    longLabel RNA.KBM7.B2 Minus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.KBM7.B2
+    
+track RNA.eHAP.A11.C636.replicate1
+shortLabel RNA.eHAP.A11.C636.replicate1
+longLabel RNA.eHAP.A11.C636.replicate1
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent RNA-Seq
+container multiWig
+
+    track RNA_eHAP_A11_C636_replicate1_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.eHAP.A11.C636.replicate1.plus.bw
+    shortLabel RNA.eHAP.A11.C636.replicate1 Plus strand
+    longLabel RNA.eHAP.A11.C636.replicate1 Plus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.eHAP.A11.C636.replicate1
+    
+    track RNA_eHAP_A11_C636_replicate1_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.eHAP.A11.C636.replicate1.minus.bw
+    shortLabel RNA.eHAP.A11.C636.replicate1 Minus strand
+    longLabel RNA.eHAP.A11.C636.replicate1 Minus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.eHAP.A11.C636.replicate1
+    
+track RNA.eHAP.A11.C636.replicate2
+shortLabel RNA.eHAP.A11.C636.replicate2
+longLabel RNA.eHAP.A11.C636.replicate2
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent RNA-Seq
+container multiWig
+
+    track RNA_eHAP_A11_C636_replicate2_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.eHAP.A11.C636.replicate2.plus.bw
+    shortLabel RNA.eHAP.A11.C636.replicate2 Plus strand
+    longLabel RNA.eHAP.A11.C636.replicate2 Plus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.eHAP.A11.C636.replicate2
+    
+    track RNA_eHAP_A11_C636_replicate2_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.eHAP.A11.C636.replicate2.minus.bw
+    shortLabel RNA.eHAP.A11.C636.replicate2 Minus strand
+    longLabel RNA.eHAP.A11.C636.replicate2 Minus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.eHAP.A11.C636.replicate2
+    
+track RNA.eHAP.A11.replicate1
+shortLabel RNA.eHAP.A11.replicate1
+longLabel RNA.eHAP.A11.replicate1
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent RNA-Seq
+container multiWig
+
+    track RNA_eHAP_A11_replicate1_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.eHAP.A11.replicate1.plus.bw
+    shortLabel RNA.eHAP.A11.replicate1 Plus strand
+    longLabel RNA.eHAP.A11.replicate1 Plus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.eHAP.A11.replicate1
+    
+    track RNA_eHAP_A11_replicate1_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.eHAP.A11.replicate1.minus.bw
+    shortLabel RNA.eHAP.A11.replicate1 Minus strand
+    longLabel RNA.eHAP.A11.replicate1 Minus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.eHAP.A11.replicate1
+    
+track RNA.eHAP.A11.replicate2
+shortLabel RNA.eHAP.A11.replicate2
+longLabel RNA.eHAP.A11.replicate2
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent RNA-Seq
+container multiWig
+
+    track RNA_eHAP_A11_replicate2_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.eHAP.A11.replicate2.plus.bw
+    shortLabel RNA.eHAP.A11.replicate2 Plus strand
+    longLabel RNA.eHAP.A11.replicate2 Plus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.eHAP.A11.replicate2
+    
+    track RNA_eHAP_A11_replicate2_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.eHAP.A11.replicate2.minus.bw
+    shortLabel RNA.eHAP.A11.replicate2 Minus strand
+    longLabel RNA.eHAP.A11.replicate2 Minus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.eHAP.A11.replicate2
+    
+track RNA.eHAP.E9.replicate1
+shortLabel RNA.eHAP.E9.replicate1
+longLabel RNA.eHAP.E9.replicate1
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent RNA-Seq
+container multiWig
+
+    track RNA_eHAP_E9_replicate1_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.eHAP.E9.replicate1.plus.bw
+    shortLabel RNA.eHAP.E9.replicate1 Plus strand
+    longLabel RNA.eHAP.E9.replicate1 Plus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.eHAP.E9.replicate1
+    
+    track RNA_eHAP_E9_replicate1_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.eHAP.E9.replicate1.minus.bw
+    shortLabel RNA.eHAP.E9.replicate1 Minus strand
+    longLabel RNA.eHAP.E9.replicate1 Minus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.eHAP.E9.replicate1
+    
+track RNA.eHAP.E9.replicate2
+shortLabel RNA.eHAP.E9.replicate2
+longLabel RNA.eHAP.E9.replicate2
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent RNA-Seq
+container multiWig
+
+    track RNA_eHAP_E9_replicate2_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.eHAP.E9.replicate2.plus.bw
+    shortLabel RNA.eHAP.E9.replicate2 Plus strand
+    longLabel RNA.eHAP.E9.replicate2 Plus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.eHAP.E9.replicate2
+    
+    track RNA_eHAP_E9_replicate2_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/haploid_cell_rnaseq/RNA.eHAP.E9.replicate2.minus.bw
+    shortLabel RNA.eHAP.E9.replicate2 Minus strand
+    longLabel RNA.eHAP.E9.replicate2 Minus strand
+    type bigWig
+    color 0,100,0
+    parent RNA.eHAP.E9.replicate2
+    
