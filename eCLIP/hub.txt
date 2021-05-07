@@ -81,7 +81,7 @@ parent eCLIP
 container multiWig
 
     track K002000195.80893_plus
-    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eCLIP/K002000195.80893.X1A.r1.fq.genome-mappedSo.rmDupSo.r2.norm.pos.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eCLIP/K002000195.80893.X1A.r1.fq.genome-mappedSo.rmDupSo.merged.r2.norm.pos.bw
     shortLabel K002000195.80893 Plus strand
     longLabel K002000195.80893 Plus strand
     type bigWig
@@ -89,7 +89,7 @@ container multiWig
     parent K002000195.80893
 
     track K002000195.80893_minus
-    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eCLIP/K002000195.80893.X1A.r1.fq.genome-mappedSo.rmDupSo.r2.norm.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eCLIP/K002000195.80893.X1A.r1.fq.genome-mappedSo.rmDupSo.merged.r2.norm.neg.bw
     shortLabel K002000195.80893 Minus strand
     longLabel K002000195.80893 Minus strand
     type bigWig
@@ -165,7 +165,7 @@ parent eCLIP
 container multiWig
 
     track K002000241.89516_plus
-    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eCLIP/K002000241.89516.X1A.r1.fq.genome-mappedSo.rmDupSo.r2.norm.pos.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eCLIP/K002000241.89516.X1A.r1.fq.genome-mappedSo.rmDupSo.merged.r2.norm.pos.bw
     shortLabel K002000241.89516 Plus strand
     longLabel K002000241.89516 Plus strand
     type bigWig
@@ -173,7 +173,7 @@ container multiWig
     parent K002000241.89516
 
     track K002000241.89516_minus
-    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eCLIP/K002000241.89516.X1A.r1.fq.genome-mappedSo.rmDupSo.r2.norm.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eCLIP/K002000241.89516.X1A.r1.fq.genome-mappedSo.rmDupSo.merged.r2.norm.neg.bw
     shortLabel K002000241.89516 Minus strand
     longLabel K002000241.89516 Minus strand
     type bigWig
@@ -221,7 +221,7 @@ parent eCLIP
 container multiWig
 
     track K002000241.89518_plus
-    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eCLIP/K002000241.89518.X1A.r1.fq.genome-mappedSo.rmDupSo.r2.norm.pos.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eCLIP/K002000241.89518.X1A.r1.fq.genome-mappedSo.rmDupSo.merged.r2.norm.pos.bw
     shortLabel K002000241.89518 Plus strand
     longLabel K002000241.89518 Plus strand
     type bigWig
@@ -229,7 +229,7 @@ container multiWig
     parent K002000241.89518
 
     track K002000241.89518_minus
-    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eCLIP/K002000241.89518.X1A.r1.fq.genome-mappedSo.rmDupSo.r2.norm.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eCLIP/K002000241.89518.X1A.r1.fq.genome-mappedSo.rmDupSo.merged.r2.norm.neg.bw
     shortLabel K002000241.89518 Minus strand
     longLabel K002000241.89516 Minus strand
     type bigWig
