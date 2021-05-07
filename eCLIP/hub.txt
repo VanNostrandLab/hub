@@ -1,0 +1,237 @@
+hub eCLIP
+shortLabel eCLIP
+longLabel eCLIP
+useOneFile on
+email fei.yuan@bcm.edu
+
+genome hg19
+
+track eCLIP
+shortLabel eCLIP
+longLabel eCLIP
+type bigWig
+superTrack on
+
+track K002000195.80891
+shortLabel K002000195.80891
+longLabel K002000195.80891
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent eCLIP
+container multiWig
+
+    track RNA_K002000195.80891_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000195.80891.X1A.r1.fq.genome-mappedSo.rmDupSo.merged.r2.norm.pos.bw
+    shortLabel K002000195.80891 Plus strand
+    longLabel K002000195.80891 Plus strand
+    type bigWig
+    color 0,100,0
+    parent K002000195.80891
+    
+    track RNA_K002000195.80891_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000195.80891.X1A.r1.fq.genome-mappedSo.rmDupSo.merged.r2.norm.neg.bw
+    shortLabel RNA_K002000195.80891 Minus strand
+    longLabel RNA_K002000195.80891 Minus strand
+    type bigWig
+    color 0,100,0
+    parent K002000195.80891
+    
+track K002000195.80892
+shortLabel K002000195.80892
+longLabel K002000195.80892
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent eCLIP
+container multiWig
+
+    track K002000195.80892_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000195.80892.NIL.r1.fq.genome-mappedSo.rmDupSo.r2.norm.pos.bw
+    shortLabel K002000195.80892 Plus strand
+    longLabel K002000195.80892 Plus strand
+    type bigWig
+    color 0,100,0
+    parent K002000195.80892
+    
+    track K002000195.80892_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000195.80892.NIL.r1.fq.genome-mappedSo.rmDupSo.r2.norm.neg.bw
+    shortLabel K002000195.80892 Minus strand
+    longLabel K002000195.80892 Minus strand
+    type bigWig
+    color 0,100,0
+    parent K002000195.80892
+
+track K002000195.80893
+shortLabel K002000195.80893
+longLabel K002000195.80893
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent eCLIP
+container multiWig
+
+    track K002000195.80893_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000195.80893.X1A.r1.fq.genome-mappedSo.rmDupSo.r2.norm.pos.bw
+    shortLabel K002000195.80893 Plus strand
+    longLabel K002000195.80893 Plus strand
+    type bigWig
+    color 0,100,0
+    parent K002000195.80893
+
+    track K002000195.80893_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000195.80893.X1A.r1.fq.genome-mappedSo.rmDupSo.r2.norm.neg.bw
+    shortLabel K002000195.80893 Minus strand
+    longLabel K002000195.80893 Minus strand
+    type bigWig
+    color 0,100,0
+    parent K002000195.80893
+
+track K002000195.80894
+shortLabel K002000195.80894
+longLabel K002000195.80894
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent eCLIP
+container multiWig
+
+    track K002000195.80894_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000195.80894.NIL.r1.fq.genome-mappedSo.rmDupSo.r2.norm.pos.bw
+    shortLabel K002000195.80894 Plus strand
+    longLabel K002000195.80894 Plus strand
+    type bigWig
+    color 0,100,0
+    parent K002000195.80894
+
+    track K002000195.80894_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000195.80894.NIL.r1.fq.genome-mappedSo.rmDupSo.r2.norm.neg.bw
+    shortLabel K002000195.80894 Minus strand
+    longLabel K002000195.80894 Minus strand
+    type bigWig
+    color 0,100,0
+    parent K002000195.80894
+
+track K002000241.89515
+shortLabel K002000241.89515
+longLabel K002000241.89515
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent eCLIP
+container multiWig
+
+    track K002000241.89515_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000241.89515.NIL.r1.fq.genome-mappedSo.rmDupSo.r2.norm.pos.bw
+    shortLabel K002000241.89515 Plus strand
+    longLabel K002000241.89515 Plus strand
+    type bigWig
+    color 0,100,0
+    parent K002000241.89515
+
+    track K002000241.89515_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000241.89515.NIL.r1.fq.genome-mappedSo.rmDupSo.r2.norm.neg.bw
+    shortLabel K002000241.89515 Minus strand
+    longLabel K002000241.89515 Minus strand
+    type bigWig
+    color 0,100,0
+    parent K002000241.89515
+
+track K002000241.89516
+shortLabel K002000241.89516
+longLabel K002000241.89516
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent eCLIP
+container multiWig
+
+    track K002000241.89516_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000241.89516.X1A.r1.fq.genome-mappedSo.rmDupSo.r2.norm.pos.bw
+    shortLabel K002000241.89516 Plus strand
+    longLabel K002000241.89516 Plus strand
+    type bigWig
+    color 0,100,0
+    parent K002000241.89516
+
+    track K002000241.89516_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000241.89516.X1A.r1.fq.genome-mappedSo.rmDupSo.r2.norm.neg.bw
+    shortLabel K002000241.89516 Minus strand
+    longLabel K002000241.89516 Minus strand
+    type bigWig
+    color 0,100,0
+    parent K002000241.89516
+
+track K002000241.89517
+shortLabel K002000241.89517
+longLabel K002000241.89517
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent eCLIP
+container multiWig
+
+    track K002000241.89517_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000241.89517.NIL.r1.fq.genome-mappedSo.rmDupSo.r2.norm.pos.bw
+    shortLabel K002000241.89517 Plus strand
+    longLabel K002000241.89517 Plus strand
+    type bigWig
+    color 0,100,0
+    parent K002000241.89517
+
+    track K002000241.89517_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000241.89517.NIL.r1.fq.genome-mappedSo.rmDupSo.r2.norm.neg.bw
+    shortLabel K002000241.89517 Minus strand
+    longLabel K002000241.89518 Minus strand
+    type bigWig
+    color 0,100,0
+    parent K002000241.89517
+
+track K002000241.89518
+shortLabel K002000241.89518
+longLabel K002000241.89518
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent eCLIP
+container multiWig
+
+    track K002000241.89518_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000241.89518.X1A.r1.fq.genome-mappedSo.rmDupSo.r2.norm.pos.bw
+    shortLabel K002000241.89518 Plus strand
+    longLabel K002000241.89518 Plus strand
+    type bigWig
+    color 0,100,0
+    parent K002000241.89518
+
+    track K002000241.89518_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/eclip/K002000241.89518.X1A.r1.fq.genome-mappedSo.rmDupSo.r2.norm.neg.bw
+    shortLabel K002000241.89518 Minus strand
+    longLabel K002000241.89516 Minus strand
+    type bigWig
+    color 0,100,0
+    parent K002000241.89518
