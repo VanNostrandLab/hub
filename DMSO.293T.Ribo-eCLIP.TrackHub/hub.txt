@@ -24,7 +24,7 @@ parent DMSO
 container multiWig
 
     track EVN32 plus
-    bigDataUrl EVN32.pos.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN32.pos.bw
     shortLabel EVN32 Plus strand
     longLabel EVN32 Plus strand
     type bigWig
@@ -32,7 +32,7 @@ container multiWig
     parent EVN32
 
     track EVN32 minus
-    bigDataUrl EVN32.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN32.neg.bw
     shortLabel EVN32 Minus strand
     longLabel EVN32 Minus strand
     type bigWig
@@ -51,7 +51,7 @@ parent DMSO
 container multiWig
 
     track EVN33 plus
-    bigDataUrl EVN33.pos.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN33.pos.bw
     shortLabel EVN33 Plus strand
     longLabel EVN33 Plus strand
     type bigWig
@@ -59,7 +59,7 @@ container multiWig
     parent EVN33
 
     track EVN33 minus
-    bigDataUrl EVN33.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN33.neg.bw
     shortLabel EVN33 Minus strand
     longLabel EVN33 Minus strand
     type bigWig
@@ -78,7 +78,7 @@ parent DMSO
 container multiWig
 
     track EVN40 plus
-    bigDataUrl EVN40.pos.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN40.pos.bw
     shortLabel EVN40 Plus strand
     longLabel EVN40 Plus strand
     type bigWig
@@ -86,7 +86,7 @@ container multiWig
     parent EVN40
 
     track EVN40 minus
-    bigDataUrl EVN40.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN40.neg.bw
     shortLabel EVN40 Minus strand
     longLabel EVN40 Minus strand
     type bigWig
@@ -105,7 +105,7 @@ parent DMSO
 container multiWig
 
     track EVN41 plus
-    bigDataUrl EVN41.pos.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN41.pos.bw
     shortLabel EVN41 Plus strand
     longLabel EVN41 Plus strand
     type bigWig
@@ -113,7 +113,7 @@ container multiWig
     parent EVN41
 
     track EVN41 minus
-    bigDataUrl EVN41.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN41.neg.bw
     shortLabel EVN41 Minus strand
     longLabel EVN41 Minus strand
     type bigWig
@@ -132,7 +132,7 @@ parent DMSO
 container multiWig
 
     track EVN52 plus
-    bigDataUrl EVN52.pos.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN52.pos.bw
     shortLabel EVN52 Plus strand
     longLabel EVN52 Plus strand
     type bigWig
@@ -140,7 +140,7 @@ container multiWig
     parent EVN52
 
     track EVN52 minus
-    bigDataUrl EVN52.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN52.neg.bw
     shortLabel EVN52 Minus strand
     longLabel EVN52 Minus strand
     type bigWig
@@ -159,7 +159,7 @@ parent DMSO
 container multiWig
 
     track EVN53 plus
-    bigDataUrl EVN53.pos.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN53.pos.bw
     shortLabel EVN53 Plus strand
     longLabel EVN53 Plus strand
     type bigWig
@@ -167,7 +167,7 @@ container multiWig
     parent EVN53
 
     track EVN53 minus
-    bigDataUrl EVN53.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN53.neg.bw
     shortLabel EVN53 Minus strand
     longLabel EVN53 Minus strand
     type bigWig
@@ -186,7 +186,7 @@ parent DMSO
 container multiWig
 
     track EVN64 plus
-    bigDataUrl EVN64.pos.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN64.pos.bw
     shortLabel EVN64 Plus strand
     longLabel EVN64 Plus strand
     type bigWig
@@ -194,7 +194,7 @@ container multiWig
     parent EVN64
 
     track EVN64 minus
-    bigDataUrl EVN64.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN64.neg.bw
     shortLabel EVN64 Minus strand
     longLabel EVN64 Minus strand
     type bigWig
@@ -213,7 +213,7 @@ parent DMSO
 container multiWig
 
     track EVN65 plus
-    bigDataUrl EVN65.pos.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN65.pos.bw
     shortLabel EVN65 Plus strand
     longLabel EVN65 Plus strand
     type bigWig
@@ -221,7 +221,7 @@ container multiWig
     parent EVN65
 
     track EVN65 minus
-    bigDataUrl EVN65.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN65.neg.bw
     shortLabel EVN65 Minus strand
     longLabel EVN65 Minus strand
     type bigWig
