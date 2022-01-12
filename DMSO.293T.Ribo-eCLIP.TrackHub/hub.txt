@@ -1,0 +1,229 @@
+hub DMSO
+shortLabel DMSO
+longLabel DMSO
+useOneFile on
+email fei.yuan@bcm.edu
+
+genome hg19
+
+track DMSO
+shortLabel DMSO
+longLabel DMSO
+type bigWig
+superTrack on
+track EVN32
+shortLabel EVN32
+longLabel DMSO 12hr RNA-Seq 1
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent DMSO
+container multiWig
+
+    track EVN32 plus
+    bigDataUrl EVN32.pos.bw
+    shortLabel EVN32 Plus strand
+    longLabel EVN32 Plus strand
+    type bigWig
+    color 0,100,0
+    parent EVN32
+
+    track EVN32 minus
+    bigDataUrl EVN32.neg.bw
+    shortLabel EVN32 Minus strand
+    longLabel EVN32 Minus strand
+    type bigWig
+    color 100,0,0
+    parent EVN32
+track EVN33
+shortLabel EVN33
+longLabel DMSO 12hr RNA-Seq 2
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent DMSO
+container multiWig
+
+    track EVN33 plus
+    bigDataUrl EVN33.pos.bw
+    shortLabel EVN33 Plus strand
+    longLabel EVN33 Plus strand
+    type bigWig
+    color 0,100,0
+    parent EVN33
+
+    track EVN33 minus
+    bigDataUrl EVN33.neg.bw
+    shortLabel EVN33 Minus strand
+    longLabel EVN33 Minus strand
+    type bigWig
+    color 100,0,0
+    parent EVN33
+track EVN40
+shortLabel EVN40
+longLabel DMSO DPK polyA 1
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent DMSO
+container multiWig
+
+    track EVN40 plus
+    bigDataUrl EVN40.pos.bw
+    shortLabel EVN40 Plus strand
+    longLabel EVN40 Plus strand
+    type bigWig
+    color 0,100,0
+    parent EVN40
+
+    track EVN40 minus
+    bigDataUrl EVN40.neg.bw
+    shortLabel EVN40 Minus strand
+    longLabel EVN40 Minus strand
+    type bigWig
+    color 100,0,0
+    parent EVN40
+track EVN41
+shortLabel EVN41
+longLabel DMSO DPK polyA 2
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent DMSO
+container multiWig
+
+    track EVN41 plus
+    bigDataUrl EVN41.pos.bw
+    shortLabel EVN41 Plus strand
+    longLabel EVN41 Plus strand
+    type bigWig
+    color 0,100,0
+    parent EVN41
+
+    track EVN41 minus
+    bigDataUrl EVN41.neg.bw
+    shortLabel EVN41 Minus strand
+    longLabel EVN41 Minus strand
+    type bigWig
+    color 100,0,0
+    parent EVN41
+track EVN52
+shortLabel EVN52
+longLabel DMSO ribo-eCLIP with gel 1
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent DMSO
+container multiWig
+
+    track EVN52 plus
+    bigDataUrl EVN52.pos.bw
+    shortLabel EVN52 Plus strand
+    longLabel EVN52 Plus strand
+    type bigWig
+    color 0,100,0
+    parent EVN52
+
+    track EVN52 minus
+    bigDataUrl EVN52.neg.bw
+    shortLabel EVN52 Minus strand
+    longLabel EVN52 Minus strand
+    type bigWig
+    color 100,0,0
+    parent EVN52
+track EVN53
+shortLabel EVN53
+longLabel DMSO ribo-eCLIP with gel 2
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent DMSO
+container multiWig
+
+    track EVN53 plus
+    bigDataUrl EVN53.pos.bw
+    shortLabel EVN53 Plus strand
+    longLabel EVN53 Plus strand
+    type bigWig
+    color 0,100,0
+    parent EVN53
+
+    track EVN53 minus
+    bigDataUrl EVN53.neg.bw
+    shortLabel EVN53 Minus strand
+    longLabel EVN53 Minus strand
+    type bigWig
+    color 100,0,0
+    parent EVN53
+track EVN64
+shortLabel EVN64
+longLabel DMSO 12hr DIP 1
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent DMSO
+container multiWig
+
+    track EVN64 plus
+    bigDataUrl EVN64.pos.bw
+    shortLabel EVN64 Plus strand
+    longLabel EVN64 Plus strand
+    type bigWig
+    color 0,100,0
+    parent EVN64
+
+    track EVN64 minus
+    bigDataUrl EVN64.neg.bw
+    shortLabel EVN64 Minus strand
+    longLabel EVN64 Minus strand
+    type bigWig
+    color 100,0,0
+    parent EVN64
+track EVN65
+shortLabel EVN65
+longLabel DMSO 12hr DIP 2
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent DMSO
+container multiWig
+
+    track EVN65 plus
+    bigDataUrl EVN65.pos.bw
+    shortLabel EVN65 Plus strand
+    longLabel EVN65 Plus strand
+    type bigWig
+    color 0,100,0
+    parent EVN65
+
+    track EVN65 minus
+    bigDataUrl EVN65.neg.bw
+    shortLabel EVN65 Minus strand
+    longLabel EVN65 Minus strand
+    type bigWig
+    color 100,0,0
+    parent EVN65
