@@ -92,7 +92,6 @@ container multiWig
     type bigWig
     color 100,0,0
     parent EVN40
-
 track EVN41
 shortLabel EVN41
 longLabel DMSO DPK polyA 2
@@ -120,6 +119,60 @@ container multiWig
     type bigWig
     color 100,0,0
     parent EVN41
+track EVN48
+shortLabel EVN48
+longLabel DMSO total RNA 1
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent DMSO
+container multiWig
+
+    track EVN48_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN48.pos.bw
+    shortLabel EVN48 Plus strand
+    longLabel EVN48 Plus strand
+    type bigWig
+    color 0,100,0
+    parent EVN48
+
+    track EVN48_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN48.neg.bw
+    shortLabel EVN48 Minus strand
+    longLabel EVN48 Minus strand
+    type bigWig
+    color 100,0,0
+    parent EVN48
+track EVN49
+shortLabel EVN49
+longLabel DMSO total RNA 2
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent DMSO
+container multiWig
+
+    track EVN49_plus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN49.pos.bw
+    shortLabel EVN49 Plus strand
+    longLabel EVN49 Plus strand
+    type bigWig
+    color 0,100,0
+    parent EVN49
+
+    track EVN49_minus
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/DMSO.293T.Ribo-eCLIP.TrackHub/EVN49.neg.bw
+    shortLabel EVN49 Minus strand
+    longLabel EVN49 Minus strand
+    type bigWig
+    color 100,0,0
+    parent EVN49
 track EVN52
 shortLabel EVN52
 longLabel DMSO ribo-eCLIP with gel 1
