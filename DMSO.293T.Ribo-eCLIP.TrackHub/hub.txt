@@ -38,6 +38,7 @@ container multiWig
     type bigWig
     color 100,0,0
     parent EVN32
+    
 track EVN33
 shortLabel EVN33
 longLabel DMSO 12hr RNA-Seq 2
@@ -65,6 +66,7 @@ container multiWig
     type bigWig
     color 100,0,0
     parent EVN33
+    
 track EVN40
 shortLabel EVN40
 longLabel DMSO DPK polyA 1
@@ -92,6 +94,7 @@ container multiWig
     type bigWig
     color 100,0,0
     parent EVN40
+    
 track EVN41
 shortLabel EVN41
 longLabel DMSO DPK polyA 2
@@ -119,6 +122,7 @@ container multiWig
     type bigWig
     color 100,0,0
     parent EVN41
+    
 track EVN48
 shortLabel EVN48
 longLabel DMSO total RNA 1
@@ -146,6 +150,7 @@ container multiWig
     type bigWig
     color 100,0,0
     parent EVN48
+    
 track EVN49
 shortLabel EVN49
 longLabel DMSO total RNA 2
@@ -173,6 +178,7 @@ container multiWig
     type bigWig
     color 100,0,0
     parent EVN49
+    
 track EVN52
 shortLabel EVN52
 longLabel DMSO ribo-eCLIP with gel 1
@@ -200,6 +206,7 @@ container multiWig
     type bigWig
     color 100,0,0
     parent EVN52
+    
 track EVN53
 shortLabel EVN53
 longLabel DMSO ribo-eCLIP with gel 2
@@ -227,6 +234,7 @@ container multiWig
     type bigWig
     color 100,0,0
     parent EVN53
+    
 track EVN64
 shortLabel EVN64
 longLabel DMSO 12hr DIP 1
@@ -254,6 +262,7 @@ container multiWig
     type bigWig
     color 100,0,0
     parent EVN64
+    
 track EVN65
 shortLabel EVN65
 longLabel DMSO 12hr DIP 2
