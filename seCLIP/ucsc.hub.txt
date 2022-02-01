@@ -1,0 +1,94 @@
+hub RBFOX2
+shortLabel RBFOX2
+longLabel RBFOX2
+useOneFile on
+email fei.yuan@bcm.edu
+
+genome hg19
+
+track RBFOX2
+shortLabel RBFOX2
+longLabel RBFOX2
+type bigWig
+superTrack on
+
+track S1
+shortLabel S1
+longLabel S1
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent RBFOX2
+container multiWig
+    track S1_pos
+    bigDataUrl S1.pos.bw
+    shortLabel S1 Minus strand
+    longLabel S1 Minus strand
+    type bigWig
+    color 100,0,0
+    parent S1
+
+    track S1_neg
+    bigDataUrl S1.neg.bw
+    shortLabel S1 Minus strand
+    longLabel S1 Minus strand
+    type bigWig
+    color 0,100,0
+    parent S1
+
+track S2
+shortLabel S2
+longLabel S2
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent RBFOX2
+container multiWig
+    track S2_pos
+    bigDataUrl S2.pos.bw
+    shortLabel S2 Minus strand
+    longLabel S2 Minus strand
+    type bigWig
+    color 100,0,0
+    parent S2
+
+    track S2_neg
+    bigDataUrl S2.neg.bw
+    shortLabel S2 Minus strand
+    longLabel S2 Minus strand
+    type bigWig
+    color 0,100,0
+    parent S2
+
+track SI
+shortLabel SI
+longLabel SI
+type bigWig
+visibility full
+alwaysZero on
+autoScale on
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+parent RBFOX2
+container multiWig
+    track SI_pos
+    bigDataUrl SI.pos.bw
+    shortLabel SI Minus strand
+    longLabel SI Minus strand
+    type bigWig
+    color 100,0,0
+    parent SI
+
+    track SI_neg
+    bigDataUrl SI.neg.bw
+    shortLabel SI Minus strand
+    longLabel SI Minus strand
+    type bigWig
+    color 0,100,0
+    parent SI
