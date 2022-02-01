@@ -24,7 +24,7 @@ showSubtrackColorOnUi on
 parent RBFOX2
 container multiWig
     track S1_pos
-    bigDataUrl S1.pos.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/seCLIP/S1.pos.bw
     shortLabel S1 Minus strand
     longLabel S1 Minus strand
     type bigWig
@@ -32,7 +32,7 @@ container multiWig
     parent S1
 
     track S1_neg
-    bigDataUrl S1.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/seCLIP/S1.neg.bw
     shortLabel S1 Minus strand
     longLabel S1 Minus strand
     type bigWig
@@ -51,7 +51,7 @@ showSubtrackColorOnUi on
 parent RBFOX2
 container multiWig
     track S2_pos
-    bigDataUrl S2.pos.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/seCLIP/S2.pos.bw
     shortLabel S2 Minus strand
     longLabel S2 Minus strand
     type bigWig
@@ -59,7 +59,7 @@ container multiWig
     parent S2
 
     track S2_neg
-    bigDataUrl S2.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/seCLIP/S2.neg.bw
     shortLabel S2 Minus strand
     longLabel S2 Minus strand
     type bigWig
@@ -78,7 +78,7 @@ showSubtrackColorOnUi on
 parent RBFOX2
 container multiWig
     track SI_pos
-    bigDataUrl SI.pos.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/seCLIP/SI.pos.bw
     shortLabel SI Minus strand
     longLabel SI Minus strand
     type bigWig
@@ -86,7 +86,7 @@ container multiWig
     parent SI
 
     track SI_neg
-    bigDataUrl SI.neg.bw
+    bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/seCLIP/SI.neg.bw
     shortLabel SI Minus strand
     longLabel SI Minus strand
     type bigWig
