@@ -23,6 +23,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 parent RBFOX2
 container multiWig
+
     track S1_pos
     bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/seCLIP/S1.pos.bw
     shortLabel S1 Minus strand
@@ -50,6 +51,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 parent RBFOX2
 container multiWig
+
     track S2_pos
     bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/seCLIP/S2.pos.bw
     shortLabel S2 Minus strand
@@ -77,6 +79,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 parent RBFOX2
 container multiWig
+
     track SI_pos
     bigDataUrl https://raw.githubusercontent.com/VanNostrandLab/hub/master/seCLIP/SI.pos.bw
     shortLabel SI Minus strand
